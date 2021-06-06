@@ -17,7 +17,7 @@ public class BootcampApplication {
 	@Bean
 	public OpenAPI customOpenAPI(){
 		return new OpenAPI().info(new Info()
-				.title("Projeto criado para o bootcamp santander dev week")
+				.title("Projeto criado para o bootcamp santander dev week - teste")
 				.version("2.0")
 				.termsOfService("https://swagger.io/terms")
 				.license(new License().name("Apache 2.0").url("https://springdoc.org")) );
